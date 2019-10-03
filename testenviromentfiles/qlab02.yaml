@@ -1,6 +1,0 @@
-value1: superuser
-tmag:
-  url: https://qlab01-tmag.apps.px-npe01.cf.t-mobile.com/WatsonLogin.jsp
-  device: Iphone 7
-mpos:
-  url: https://qlab01-tpos.apps.px-npe01.cf.t-mobile.com/#/mainMenu

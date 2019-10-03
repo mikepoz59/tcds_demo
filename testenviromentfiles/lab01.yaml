@@ -1,0 +1,7 @@
+userName: joe234
+service1:
+  url: https://lab01.testservice1.com/#/mainMenu
+  device: Iphone X
+service2:
+  url: https://lab01.testservice2.com/#/mainMenu
+  device: Samsung Note 10

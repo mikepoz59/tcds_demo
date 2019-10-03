@@ -1,0 +1,7 @@
+userName: joe234
+service1:
+  url: https://lab02.testservice1.com/#/mainMenu
+  device: Iphone 7
+service2:
+  url: https://lab02.testservice2.com/#/mainMenu
+  device: Samsung 10e
