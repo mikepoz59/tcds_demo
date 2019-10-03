@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "6b4f9bae-ba26-4a5b-b9e4-d6a4d65314d4",
+		"name": "tdmcall",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "tdm call",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://tdm-ssp.apps.px-prd01.cf.t-mobile.com/atbans?tenure=1-3&cclass=C&account=IR&productType=G&env={{env}}&form=JSON&count=5&scenario=atbans",
+					"protocol": "https",
+					"host": [
+						"tdm-ssp",
+						"apps",
+						"px-prd01",
+						"cf",
+						"t-mobile",
+						"com"
+					],
+					"path": [
+						"atbans"
+					],
+					"query": [
+						{
+							"key": "tenure",
+							"value": "1-3"
+						},
+						{
+							"key": "cclass",
+							"value": "C"
+						},
+						{
+							"key": "account",
+							"value": "IR"
+						},
+						{
+							"key": "productType",
+							"value": "G"
+						},
+						{
+							"key": "env",
+							"value": "{{env}}"
+						},
+						{
+							"key": "form",
+							"value": "JSON"
+						},
+						{
+							"key": "count",
+							"value": "5"
+						},
+						{
+							"key": "scenario",
+							"value": "atbans"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
