@@ -1,0 +1,73 @@
+#templatePath: C:\Users\mposlus1\Documents\GitHub\tcds\src\main\resources\template_id_1.json
+testCaseId: 1234321_sample
+testCaseName: My test name
+sets:
+- set: login
+  fields:
+  - name: username
+    logic:
+      type: String
+      staticValue: (#randAlphaNum||DDDLLL)
+  - name: password
+    logic:
+      type: String
+      staticValue: nonFunctionStaticValue
+- set: creditCardInfo
+  fields:
+  - name: creditCardAmex
+    logic:
+      type: String
+      staticValue: (#randCCNum||amex)
+  - name: creditCardVisa
+    logic:
+      type: String
+      staticValue: (#randCCNum||visa)
+  - name: creditCardMastercard
+    logic:
+      type: String
+      staticValue: (#randCCNum||mastercard)
+  - name: creditCardDiscover
+    logic:
+      type: String
+      staticValue: (#randCCNum||discover)
+  - name: creditCardJcb
+    logic:
+      type: String
+      staticValue: (#randCCNum||jcb)
+- set: listValues
+  fields:
+  - name: list1
+    logic:
+      type: String
+      listValues:
+         - value A
+         - value B
+         - value C
+  - name: list2
+    logic:
+      type: String
+      listValues:
+         - value 1
+         - value 2
+         - value 3
+  - name: list3
+    logic:
+      type: String
+      listValues:
+         - value less than
+         - value greater than
+         - value equal to
+- set: realnames
+  fields:
+  - name: fullname
+    logic:
+      type: String
+      staticValue: (#randName)
+  - name: firstname
+    logic:
+      type: String
+      staticValue: (#randName||firstname)
+  - name: lastname
+    logic:
+      type: String
+      staticValue: (#randName||lastname)
