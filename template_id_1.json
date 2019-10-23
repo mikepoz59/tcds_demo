@@ -1,0 +1,13 @@
+{
+  "templatePath": "placeholder",
+  "testCaseId": "placeholder",
+  "testCaseName": "placeholder",
+  "login": {
+    "username": "placeholder",
+    "password": "placeholder"
+  },
+  "Activation": {
+    "user": "placeholder",
+    "password": "placeholder"
+  }
+}
