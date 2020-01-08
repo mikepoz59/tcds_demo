@@ -7,7 +7,7 @@
     "password": "placeholder"
   },
   "Activation": {
-    "user": "placeholder",
-    "password": "https://github.com/mikepoz59/tcds_demo/edit/master/testdatatemplatefiles/template_id_1.json"
+    "user": "https://github.com/mikepoz59/tcds_demo/edit/master/testdatatemplatefiles",
+    "password": "template_id_1.json"
   }
 }
