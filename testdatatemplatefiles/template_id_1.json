@@ -9,5 +9,6 @@
   "Activation": {
     "user": "placeholder",
     "password": "placeholder"
-  }
+  },
+  "Source": "https://github.com/mikepoz59/tcds_demo"
 }
